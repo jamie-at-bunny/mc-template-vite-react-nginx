@@ -1,0 +1,21 @@
+{
+  "id": "vite-react-nginx",
+  "name": "Vite + React (Nginx)",
+  "description": "Vite React app served by Nginx, deployed to Magic Containers.",
+  "icon": "code",
+  "containers": [
+    {
+      "name": "app",
+      "imageNamespace": "library",
+      "imageName": "nginx",
+      "imageTag": "alpine",
+      "endpoints": [
+        {
+          "displayName": "HTTP",
+          "type": "CDN",
+          "containerPort": 80
+        }
+      ]
+    }
+  ]
+}
