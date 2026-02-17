@@ -9,6 +9,7 @@ A Vite React app served by Nginx, ready to deploy on [Bunny Magic Containers](ht
 - `Dockerfile` - Multi-stage build using Node.js and Nginx
 - `docker-compose.yml` - Local development setup
 - `bunny.json` - Magic Containers app config
+- `.github/workflows/deploy.yml` - GitHub Actions workflow to build, push to GitHub Container Registry, and deploy to Magic Containers
 
 ## Run locally
 
